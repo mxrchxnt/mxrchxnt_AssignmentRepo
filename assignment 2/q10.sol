@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract MassageStore {
-    string public massage;
+contract MessageStore {
+    string public message;
 
-    function Store(string memory msag)public {
-        // takes input from user and store's in the massage variable
-        massage = msag;
+    function Store(string memory mseg)public {
+        // takes input from user and store's in the message variable
+        message = mseg;
     }
-    function getMassage()public view returns(string memory) {
-        // returns the massage stored in massage variable
-        return  massage;
+    function getMessage()public view returns(string memory) {
+        // returns the message stored in message variable
+        return  message;
     }
 }
