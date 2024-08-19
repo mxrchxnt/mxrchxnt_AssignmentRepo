@@ -10,7 +10,7 @@ This folder holds the answers for Assignment 2 of Block Chain, showcasing variou
 
 The folder is structured with individual files for each question from 1 to 10 . Inside each file, you'll find the relevant smart contract code in solidity and any accompanying documentation.
 
-### Folders:
+### Questions:
 
 - 1 - Contains the "Hello World" smart contract (`q1.sol`).
 - 2 - Features the "Simple Storage" smart contract (`q2.sol`).
