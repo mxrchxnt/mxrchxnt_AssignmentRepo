@@ -1,4 +1,4 @@
-# Smart Contract Assignments
+# Assignment 2 : SOLIDITY BASICS
 
 This folder holds the answers for Assignment 2 of Block Chain, showcasing various concepts in smart contract programming using Solidity.
 - ■ Submitting Date - 19 Aug
