@@ -6,11 +6,11 @@ contract Voting{
     uint private c1=0;
     uint private c2=0;
     function VoteForC1()public{
-        // voteing for c1
+        // voting for c1
         c1+=1;
     }
     function VoteForC2()public {
-        //votiing for c2
+        //voting for c2
         c2+=1;
     }
     function ResultVotesofc1()public view returns(uint){
