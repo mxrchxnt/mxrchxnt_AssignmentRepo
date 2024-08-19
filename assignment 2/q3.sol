@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract PersonalizedMassage{
-    string public massage;
-    constructor(string memory personalmas) {
-        // setting personalized massage at deployment
-        massage = personalmas;
+contract PersonalizedMessage{
+    string public message;
+    constructor(string memory personalizedmes) {
+        // setting personalized message at deployment
+        message = personalizedmes;
     }
-    function getMassage()public view returns (string memory) {
-        // getting personalized massage
-        return massage; 
+    function getMessage()public view returns (string memory) {
+        // getting personalized message
+        return message; 
     }
 }
