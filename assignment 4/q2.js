@@ -12,4 +12,4 @@ function DesiredHash(desiredString){
     }
     console.log(hash)
 }
-DesiredHash("YugAnaghan")
+DesiredHash("devadnani26")
