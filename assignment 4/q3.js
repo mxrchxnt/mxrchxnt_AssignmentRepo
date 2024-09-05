@@ -1,11 +1,11 @@
 const crypto = require('crypto');
-function DesiredHash(transection){
+function DesiredHash(transaction){
     let number =0 ;
     // Converting the Transection to the String
     let transString = ""
-    for (let i=0;i<transection.length;i++){
-        transString += transection[i][0]+"To"+transection[i][1]+"OF"+transection[i][2];
-        if (i+1 != transection.length){
+    for (let i=0;i<transaction.length;i++){
+        transString += transaction[i][0]+"To"+transaction[i][1]+"OF"+transaction[i][2];
+        if (i+1 != transaction.length){
             transString+="And"
         }
         }
@@ -18,5 +18,5 @@ function DesiredHash(transection){
     }
     console.log(hash)
 }
-let transections = [["Dev","Karan",100],["Karan","Darsh",10]]
-DesiredHash(transections)
+let transactions = [["Dev","Karan",100],["Karan","Darsh",10]]
+DesiredHash(transaction)
